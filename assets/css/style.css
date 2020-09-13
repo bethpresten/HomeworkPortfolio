@@ -1,9 +1,8 @@
 .navbar-light .navbar-brand {
-  background: rgb(44, 170, 101);
+  background: #20b2aa;
   color: white;
   float: left;
 }
-
 .collapse navbar-collapse {
   float: right;
 }
@@ -12,8 +11,12 @@
   float: right;
 }
 
+h1 {
+  color: #20b2aa;
+}
+
 h2 {
-  background-color: rgb(44, 170, 101);
+  background-color: #20b2aa;
 }
 
 .container {
