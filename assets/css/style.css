@@ -1,4 +1,13 @@
 .navbar-light .navbar-brand {
   background: teal;
   color: white;
+  float: left;
+}
+
+.collapse navbar-collapse {
+  float: right;
+}
+
+.nav justify-content-end {
+  float: right;
 }
