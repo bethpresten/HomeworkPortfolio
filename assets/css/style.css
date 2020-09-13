@@ -1,5 +1,5 @@
 .navbar-light .navbar-brand {
-  background: teal;
+  background: rgb(44, 170, 101);
   color: white;
   float: left;
 }
@@ -10,4 +10,8 @@
 
 .nav justify-content-end {
   float: right;
+}
+
+h1 {
+  background-color: rgb(44, 170, 101);
 }
