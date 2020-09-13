@@ -12,6 +12,10 @@
   float: right;
 }
 
-h1 {
+h2 {
   background-color: rgb(44, 170, 101);
+}
+
+.container {
+  bakcground-color: white;
 }
