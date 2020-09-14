@@ -1,3 +1,10 @@
+html {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed
+  color: lightslategray
+}
+
 .navbar-light .navbar-brand {
   background: #20b2aa;
   color: white;
@@ -21,4 +28,24 @@ h2 {
 
 .container {
   bakcground-color: white;
+  size:50%;
+}
+
+#img-responsive {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  float: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: lightslategray;
+  text-align: center;
+  height: 50px;
+  border-top: rgb(44, 184, 184) solid 5px;
 }
