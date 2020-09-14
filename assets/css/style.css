@@ -25,9 +25,10 @@ h2 {
   padding: 5px;
 }
 
-#container {
+.container {
   bakcground-color: white;
   size:50%;
+  margin:20px;
 }
 
 #img-responsive {
@@ -51,4 +52,9 @@ button {
   background-color:#20b2aa;
   text-align: center;
   height: 10px;
+}
+
+.media {
+  padding:20px;
+  margin:20px;
 }
