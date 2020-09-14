@@ -1,8 +1,8 @@
 html {
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed
-  color: lightslategray
+  background-attachment: fixed;
+  background-color:lightslategrey
 }
 
 .navbar-light .navbar-brand {
@@ -20,10 +20,15 @@ html {
 
 h1 {
   color: #20b2aa;
+  margin: 15px;
+  padding: 15px;
 }
 
 h2 {
   background-color: #20b2aa;
+  color:white;
+  margin: 5px;
+  padding: 5px;
 }
 
 .container {
@@ -38,6 +43,12 @@ h2 {
   float: left;
 }
 
+button {
+  background-color: #20b2aa;
+  padding:15px
+  margin: 10px;
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -47,5 +58,5 @@ h2 {
   color: lightslategray;
   text-align: center;
   height: 50px;
-  border-top: rgb(44, 184, 184) solid 5px;
+  border-top: #20b2aa; solid 5px;
 }
