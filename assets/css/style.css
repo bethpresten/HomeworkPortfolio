@@ -1,21 +1,15 @@
 html {
+  background:url(./images/whatsappimage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color:lightslategrey
+  background-color:lightslategrey;
 }
 
 .navbar-light .navbar-brand {
   background: #20b2aa;
   color: white;
   float: left;
-}
-.collapse navbar-collapse {
-  float: right;
-}
-
-.nav justify-content-end {
-  float: right;
 }
 
 h1 {
@@ -31,7 +25,7 @@ h2 {
   padding: 5px;
 }
 
-.container {
+#container {
   bakcground-color: white;
   size:50%;
 }
