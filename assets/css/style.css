@@ -50,13 +50,11 @@ button {
 }
 
 .footer {
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: gray;
-  color: lightslategray;
+  background-color:#20b2aa;
   text-align: center;
-  height: 50px;
-  border-top: #20b2aa; solid 5px;
+  height: 10px;
 }
