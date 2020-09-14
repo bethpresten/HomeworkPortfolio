@@ -1,5 +1,5 @@
-html {
-  background:url(./images/whatsappimage.jpg);
+body {
+  /* background:(./images/whatsappimage.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -26,7 +26,7 @@ h2 {
 }
 
 .container {
-  bakcground-color: white;
+  background-color: white;
   size:50%;
   margin:20px;
 }
@@ -57,4 +57,22 @@ button {
 .media {
   padding:20px;
   margin:20px;
+  width:100%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    float:left;
+  }
+  .wrapper {
+    width: 600px;
+
+  #sidebar {
+    float: left;
+  }
+
+  img {
+    float: left;
+    width: 50%;
+  }
 }
