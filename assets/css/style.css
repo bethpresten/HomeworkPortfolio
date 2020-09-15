@@ -1,5 +1,5 @@
 body {
-  /* background:(./images/whatsappimage.jpg); */
+  background:url(./images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -54,15 +54,25 @@ button {
   height: 10px;
 }
 
-.media {
+.mr-3 {
+  float: left;
   padding:20px;
   margin:20px;
   width:100%;
+  min-width: 25%;
+  max-width: 100%;
 }
 
 img {
   float: left;
-  width: 100%;
+  width: 50%;
+  min-width: 25%;
+  max-width: 100%;
+}
+
+bioimg {
+  float: left;
+  width: 50%;
   min-width: 25%;
   max-width: 100%;
 }
