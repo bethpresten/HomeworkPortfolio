@@ -1,23 +1,27 @@
+/* body descriptors for all three pages */
 body {
-  background:url(./images/background.jpg);
+  /* background:url(./Images/background.jpg)center center no-repeat; */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-color:lightslategrey;
 }
 
+/* navbar for all three pages */
 .navbar-light .navbar-brand {
   background: #20b2aa;
   color: white;
   float: left;
 }
 
+/* header for index.html */
 h1 {
   color: #20b2aa;
   margin: 15px;
   padding: 15px;
 }
 
+/* header for contact.html and portfolio.html */
 h2 {
   background-color: #20b2aa;
   color:white;
@@ -25,10 +29,15 @@ h2 {
   padding: 5px;
 }
 
+/* containers for all three html pages */
 .container {
   background-color: white;
   size:50%;
   margin:20px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
 }
 
 #img-responsive {
@@ -38,12 +47,14 @@ h2 {
   float: left;
 }
 
+/* submit button for contact.html */
 button {
   background-color: #20b2aa;
   padding:15px
   margin: 10px;
 }
 
+/* footer css for all three pages */
 .footer {
   position: sticky;
   left: 0;
@@ -54,27 +65,29 @@ button {
   height: 10px;
 }
 
+/* css for 5 pictures located on portfolio.html page  */
 .mr-3 {
+  position: relative;
   float: left;
   padding:20px;
   margin:20px;
   width:100%;
   min-width: 25%;
   max-width: 100%;
+  line-height: normal
+  line-width: normal;
 }
 
-img {
-  float: left;
-  width: 50%;
-  min-width: 25%;
-  max-width: 100%;
-}
-
+/* css for biopic image found on index.html */
 bioimg {
   float: left;
   width: 50%;
   min-width: 25%;
   max-width: 100%;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,8 +97,6 @@ bioimg {
   .wrapper {
     width: 600px;
 
-  #sidebar {
+  .sidebar {
     float: left;
   }
-
-}
