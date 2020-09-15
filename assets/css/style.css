@@ -60,6 +60,13 @@ button {
   width:100%;
 }
 
+img {
+  float: left;
+  width: 100%;
+  min-width: 25%;
+  max-width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   body {
     float:left;
@@ -71,8 +78,4 @@ button {
     float: left;
   }
 
-  img {
-    float: left;
-    width: 50%;
-  }
 }
