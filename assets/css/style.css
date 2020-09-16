@@ -1,6 +1,6 @@
 /* body descriptors for all three pages */
 body {
-  /* background-image: url("images/background.jpg"); */
+  /* background-image: url("../images/background.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -85,6 +85,10 @@ bioimg {
   width: 50%;
   min-width: 25%;
   max-width: 100%;
+}
+form {
+  margin:20px;
+  padding:20px;
 }
 
 .clearfix {
