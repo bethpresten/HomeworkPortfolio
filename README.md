@@ -38,7 +38,6 @@ Contact.html
 
     Altered text boxes for consistencies purposes and changed the cueing text inside of the boxes
 
-S
-emantic Elements
+Semantic Elements
 
     Changed the div classes to semantic elements as appropriate

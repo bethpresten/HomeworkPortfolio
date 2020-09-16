@@ -1,6 +1,6 @@
 /* body descriptors for all three pages */
 body {
-  /* background:url(./Images/background.jpg)center center no-repeat; */
+  /* background-image: url("background.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -34,6 +34,7 @@ h2 {
   background-color: white;
   size:50%;
   margin:20px;
+  padding:20px;
 }
 
 hr.solid {
