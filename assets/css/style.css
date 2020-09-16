@@ -1,9 +1,8 @@
 /* body descriptors for all three pages */
 body {
-  /* background-image: url(/images/background.png); */
+  /* background-image: url("./Images/background.png"); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   background-color:lightslategrey;
 }
 
@@ -104,4 +103,14 @@ form {
 
   .sidebar {
     float: left;
+  }
+   
+  .mr-3 {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+
+  .clearfix {
+    clear: both;
   }
