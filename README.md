@@ -41,3 +41,11 @@ Contact.html
 Semantic Elements
 
     Changed the div classes to semantic elements as appropriate
+
+Screenshots of Project
+
+    1. Main page and About me:  (images/aboutmehtml.png)
+
+    2. Portfolio page: (images/portfoliohtml.png)
+
+    3. Contact page: (images/contacthtml/png)
