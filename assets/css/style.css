@@ -1,6 +1,6 @@
 /* body descriptors for all three pages */
 body {
-  /* background-image: url("./Images/background.png"); */
+  /* background-image: url("./images0/background.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-color:lightslategrey;
@@ -50,7 +50,7 @@ hr.solid {
 /* submit button for contact.html */
 button {
   background-color: #20b2aa;
-  padding:15px
+  padding:15px;
   margin: 10px;
 }
 
