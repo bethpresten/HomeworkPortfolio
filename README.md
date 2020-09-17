@@ -44,8 +44,8 @@ Semantic Elements
 
 Screenshots of Project
 
-    1. Main page and About me:  (images/aboutmehtml.png)
+    1. Main page and About me:  ("./Images/aboutmehtml.png")
 
-    2. Portfolio page: (images/portfoliohtml.png)
+    2. Portfolio page: ("./Images/portfoliohtml.png")
 
-    3. Contact page: (images/contacthtml/png)
+    3. Contact page: ("./Images/contacthtml.png")
