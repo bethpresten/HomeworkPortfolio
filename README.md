@@ -1,5 +1,8 @@
 # HomeworkPortfolio
 
+Description:
+This application was modified from a former application. I created a skeleton portfolio based on the skills that I had at that point. This application is now fully descriptive and functioning with a full biography, personalized touches with fonts, screenshots of projects and assignments, and a functioning form.
+
 Installation:
 
     Created .html pages for contact, portfolio, and index
@@ -44,8 +47,8 @@ Semantic Elements
 
 Screenshots of Project
 
-    1. Main page and About me:  ("./Images/aboutmehtml.png")
+    1. Main page and About me:
 
-    2. Portfolio page: ("./Images/portfoliohtml.png")
+    2. Portfolio page:
 
-    3. Contact page: ("./Images/contacthtml.png")
+    3. Contact page:
