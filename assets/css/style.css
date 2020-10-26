@@ -3,7 +3,8 @@ body {
   /* background-image: url("./images/background.png"); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:lightslategrey;
+  background-color: lightslategrey;
+  font-family: "Lobster Two", cursive;
 }
 
 /* navbar for all three pages */
@@ -11,6 +12,7 @@ body {
   background: #20b2aa;
   color: white;
   float: left;
+  font-size: 24px;
 }
 
 /* header for index.html */
@@ -23,7 +25,7 @@ h1 {
 /* header for contact.html and portfolio.html */
 h2 {
   background-color: #20b2aa;
-  color:white;
+  color: white;
   margin: 5px;
   padding: 5px;
 }
@@ -31,9 +33,9 @@ h2 {
 /* containers for all three html pages */
 .container {
   background-color: white;
-  size:50%;
-  margin:20px;
-  padding:20px;
+  size: 50%;
+  margin: 20px;
+  padding: 20px;
 }
 
 hr.solid {
@@ -50,7 +52,7 @@ hr.solid {
 /* submit button for contact.html */
 button {
   background-color: #20b2aa;
-  padding:15px;
+  padding: 15px;
   margin: 10px;
 }
 
@@ -60,7 +62,7 @@ button {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:#20b2aa;
+  background-color: #20b2aa;
   text-align: center;
   height: 10px;
 }
@@ -69,43 +71,51 @@ button {
 .mr-3 {
   position: relative;
   float: left;
-  padding:20px;
-  margin:10px;
-  width:100%;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
   min-width: 25%;
   max-width: 75%;
   line-height: normal;
 }
 
 /* css for biopic image found on index.html */
-bioimg {
-  float: left;
-  width: 50%;
-  min-width: 25%;
-  max-width: 100%;
+#bioimg {
+  /* float: left; */
+  margin: -10px 10px 0 -10px;
+  display: flex;
+  column-width: 150px;
 }
-form {
-  margin:20px;
-  padding:20px;
-}
+
+/* #bio {
+  display: block;
+  width: 100%;
+} */
 
 .clearfix {
   overflow: auto;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    float:left;
-  }
-  .wrapper {
-    width: 600px;
+#contact-info {
+  text-align: center;
+  font-size: 14px;
+  background-color: lightgrey;
+}
 
-  .sidebar {
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  #bio {
+    width: 100%;
+  }
+
+  #bioimg {
+    padding-bottom: 40px;
+    padding-right: 20px;
     float: left;
+    width: 100%;
   }
-   
-  .mr-3 {
-      max-width: 50%;
-      height: auto;
-    }
-  }
+}
