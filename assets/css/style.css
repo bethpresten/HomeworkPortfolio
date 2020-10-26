@@ -1,6 +1,6 @@
 /* body descriptors for all three pages */
 body {
-  /* background-image: url("./images/background.png"); */
+  /* background-image: ("./images/background.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-color: lightslategrey;
@@ -13,21 +13,16 @@ body {
   color: white;
   float: left;
   font-size: 24px;
+  padding: 10px;
+  margin: 10px;
 }
 
 /* header for index.html */
-h1 {
+h1,
+h2 {
   color: #20b2aa;
   margin: 15px;
   padding: 15px;
-}
-
-/* header for contact.html and portfolio.html */
-h2 {
-  background-color: #20b2aa;
-  color: white;
-  margin: 5px;
-  padding: 5px;
 }
 
 /* containers for all three html pages */
@@ -38,33 +33,9 @@ h2 {
   padding: 20px;
 }
 
+/* faint line as a separator on all three pages */
 hr.solid {
   border-top: 3px solid #bbb;
-}
-
-#img-responsive {
-  height: 150px;
-  width: 150px;
-  margin: 10px;
-  float: left;
-}
-
-/* submit button for contact.html */
-button {
-  background-color: #20b2aa;
-  padding: 15px;
-  margin: 10px;
-}
-
-/* footer css for all three pages */
-.footer {
-  position: sticky;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #20b2aa;
-  text-align: center;
-  height: 10px;
 }
 
 /* css for 5 pictures located on portfolio.html page  */
@@ -81,28 +52,49 @@ button {
 
 /* css for biopic image found on index.html */
 #bioimg {
+  width: 100%;
+  height: 100%;
   /* float: left; */
-  margin: -10px 10px 0 -10px;
-  display: flex;
-  column-width: 150px;
 }
 
-/* #bio {
-  display: block;
-  width: 100%;
-} */
+#bio {
+  float: left;
+  font-size: 20px;
+}
 
-.clearfix {
+.clearfix::after {
   overflow: auto;
 }
 
+/* container color to offset the project screenshots on portfolio.html  */
+#picture-container {
+  background-color: #d3d3d3;
+}
+/* submit button for contact.html */
+button {
+  background-color: #20b2aa;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* direct contact information on the contact.html */
 #contact-info {
   text-align: center;
   font-size: 14px;
   background-color: lightgrey;
 }
+/* footer css for all three pages */
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #20b2aa;
+  text-align: center;
+  height: 10px;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .container {
     width: 100%;
     /* background-color: red; */
@@ -113,9 +105,6 @@ button {
   }
 
   #bioimg {
-    padding-bottom: 40px;
-    padding-right: 20px;
-    float: left;
-    width: 100%;
+    width: 350px;
   }
 }
