@@ -5,23 +5,18 @@ This application was modified from a former application. I created a skeleton po
 
 Three separate html pages comprise the portfolio: an index/about, contact, and portfolio page.
 
-Index.html
+Index.html: The index page is where general information can be found.
 
-The index page is where general information can be found.
+Portfolio.html: The portfolio page is where project information and brief descriptions can be found.
 
-Portfolio.html
-
-The portfolio page is where project information and brief descriptions can be found.
-
-Contact.html
-
-The contact is where a contact form as well as direct contact information can be found.
+Contact.html: The contact is where a contact form as well as direct contact information can be found.
 
 Screenshots:
-Index: !url[assets/css/images/projectscreenshots/Portfolio.png]
-Portfolio: !url[assets/css/images/projectscreenshots/ProjectList.png]
-Contact: ![contact][assets/css/images/projectscreenshots/contact.png]
-Github:
+Index: ![index](assets/css/images/projectscreenshots/Portfolio.png)
+Portfolio: ![portfolio](assets/css/images/projectscreenshots/ProjectList.png)
+Contact: ![contact](assets/css/images/projectscreenshots/contact.png)
+
+Github: [https://github.com/bethpresten]
 
 Credits: Bootstrap, W3Schools, FontAwesome, and Google Fonts
 
