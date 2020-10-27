@@ -78,11 +78,11 @@ button {
 }
 
 /* direct contact information on the contact.html */
-#contact-info {
+/* #contact-info {
   text-align: center;
   font-size: 14px;
   background-color: lightgrey;
-}
+} */
 /* footer css for all three pages */
 .footer {
   position: sticky;
