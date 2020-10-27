@@ -16,7 +16,7 @@ Index: ![index](assets/css/images/projectscreenshots/Portfolio.png)
 Portfolio: ![portfolio](assets/css/images/projectscreenshots/ProjectList.png)
 Contact: ![contact](assets/css/images/projectscreenshots/contact.png)
 
-Github: [https://github.com/bethpresten]
+Github: [https://github.com/bethpresten/PrestenPortfolio]
 
 Credits: Bootstrap, W3Schools, FontAwesome, and Google Fonts
 
