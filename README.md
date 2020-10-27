@@ -3,52 +3,34 @@
 Description:
 This application was modified from a former application. I created a skeleton portfolio based on the skills that I had at that point. This application is now fully descriptive and functioning with a full biography, personalized touches with fonts, screenshots of projects and assignments, and a functioning form.
 
-Installation:
-
-    Created .html pages for contact, portfolio, and index
-
-    Linked style.css sheet
-
-    Created containers, columns, and rows
-
-    Created background styling
-
-    Found a color that's consistent throughout the whole website
-
-    Created navbar via bootstrap.  Pushed links to the right.  Changed the home navbar to create an individualized feel.  Copied and pasted navbar to each html page.
-
-    Created a footer per the specifications.  Copied and pasted code to all three pages.
+Three separate html pages comprise the portfolio: an index/about, contact, and portfolio page.
 
 Index.html
 
-    Created a header
-
-    Found a professional picture to use an an introductory method
-
-    Wrapped text around picture with image floated to the left.
+The index page is where general information can be found.
 
 Portfolio.html
 
-    Created a header.
-
-    Found a placeholder picture.
-
-    Lined pictures up horizontally
+The portfolio page is where project information and brief descriptions can be found.
 
 Contact.html
 
-    Contact form found via bootstrap.
+The contact is where a contact form as well as direct contact information can be found.
 
-    Altered text boxes for consistencies purposes and changed the cueing text inside of the boxes
+Screenshots:
+Index: !url[assets/css/images/projectscreenshots/Portfolio.png]
+Portfolio: !url[assets/css/images/projectscreenshots/ProjectList.png]
+Contact: ![contact][assets/css/images/projectscreenshots/contact.png]
+Github:
 
-Semantic Elements
+Credits: Bootstrap, W3Schools, FontAwesome, and Google Fonts
 
-    Changed the div classes to semantic elements as appropriate
+License
+MIT License
 
-Screenshots of Project
+Copyright (c) [2020] [Beth Presten]
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-    1. Main page and About me:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-    2. Portfolio page:
-
-    3. Contact page:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
